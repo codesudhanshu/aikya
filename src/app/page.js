@@ -180,7 +180,7 @@ export default function ComingSoon() {
           Something amazing is on its way. Get ready for an extraordinary experience.
         </p>
 
-        <Link href="/about" className="mb-12 px-8 py-3 bg-gradient-to-r from-purple-600 to-blue-600 rounded-full hover:from-purple-700 hover:to-blue-700 transition-all transform hover:scale-105 shadow-lg">
+        <Link href="/about-us" className="mb-12 px-8 py-3 bg-gradient-to-r from-purple-600 to-blue-600 rounded-full hover:from-purple-700 hover:to-blue-700 transition-all transform hover:scale-105 shadow-lg">
           Know More About Aikya
         </Link>
 
