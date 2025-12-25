@@ -7,8 +7,6 @@ import { StarIcon } from "@sanity/icons";
 import { Flame } from "lucide-react";
 import PriceView from "./PriceView";
 import Title from "./Title";
-import ProductSideMenu from "./ProductSideMenu";
-import AddToCartButton from "./AddToCartButton";
 
 const ProductCard = ({ product }: { product: Product }) => {
   return (
@@ -27,7 +25,6 @@ const ProductCard = ({ product }: { product: Product }) => {
             />
           </Link>
         )}
-        <ProductSideMenu product={product} />
         {product?.status === "sale" ? (
           <p className="absolute top-2 left-2 z-10 text-xs border border-darkColor/50 px-2 rounded-full group-hover:border-lightGreen hover:text-shop_dark_green hoverEffect">
             Sale!
@@ -81,7 +78,6 @@ const ProductCard = ({ product }: { product: Product }) => {
           discount={product?.discount}
           className="text-sm"
         />
-        <AddToCartButton product={product} className="w-36 rounded-full" />
       </div>
     </div>
   );
