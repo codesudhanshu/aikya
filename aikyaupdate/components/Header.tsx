@@ -7,12 +7,12 @@ import { auth, currentUser } from "@clerk/nextjs/server";
 import { getMyOrders } from "@/sanity/queries";
 
 const Header = async () => {
-  const user = await currentUser();
-  const { userId } = await auth();
-  let orders = null;
-  if (userId) {
-    orders = await getMyOrders(userId);
-  }
+  // const user = await currentUser();
+  // const { userId } = await auth();
+  // let orders = null;
+  // if (userId) {
+  //   orders = await getMyOrders(userId);
+  // }
 
   return (
     <header className="sticky top-0 z-50 py-5 bg-white/70 backdrop-blur-md">
