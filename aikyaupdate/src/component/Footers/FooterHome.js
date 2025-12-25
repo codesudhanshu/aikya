@@ -5,9 +5,9 @@ export default function FooterHome() {
   const currentYear = new Date().getFullYear();
 
   // Unified styles for section padding
-  const sectionPaddingClasses = 'max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10'; 
+  // const sectionPaddingClasses = 'max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10'; 
   // Unified styles for border
-  const borderClass = 'border-b border-gray-700/50';
+  // const borderClass = 'border-b border-gray-700/50';
 
   return (
     // <footer className="bg-[#1a1a1a] text-white">
@@ -171,7 +171,7 @@ export default function FooterHome() {
     background: 'linear-gradient(to right, #2563eb, #9333ea, #db2777)'
   }}
 >
-  Copyright 2025 © Aikya Traders
+  Copyright {currentYear} © Aikya Traders
 </footer>
   );
 }
