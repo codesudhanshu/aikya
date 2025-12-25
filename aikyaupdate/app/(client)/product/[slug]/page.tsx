@@ -1,5 +1,4 @@
 import Container from "@/components/Container";
-import FavoriteButton from "@/components/FavoriteButton";
 import ImageView from "@/components/ImageView";
 import PriceView from "@/components/PriceView";
 import ProductCharacteristics from "@/components/ProductCharacteristics";
@@ -58,7 +57,6 @@ const SingleProductPage = async ({
           </p>
         </div>
         <div className="flex items-center gap-2.5 lg:gap-3">
-          <FavoriteButton showProduct={true} product={product} />
         </div>
         <ProductCharacteristics product={product} />
         <div className="flex flex-wrap items-center justify-between gap-2.5 border-b border-b-gray-200 py-5 -mt-2">
