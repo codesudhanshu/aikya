@@ -173,7 +173,7 @@ export default function Aboutus() {
             <h2 className="text-4xl md:text-4xl font-bold mb-4" style={{color: '#9a4481'}} >Continually Expanding</h2>
           </div>
           <p className="text-gray-700 text-base md:text-lg leading-relaxed max-w-6xl">
-            With a 26% market share and a trajectory of growth, Polycab's influence remains on the rise. The company boasts a network of 28 state-of-the-art manufacturing facilities, including two strategic joint ventures with Techno and Trafigura. These facilities are strategically located across the states of Gujarat, Maharashtra, Uttarakhand, and the union territory of Daman and Diu.
+            With a 26% market share and a trajectory of growth, Polycab&apos;s influence remains on the rise. The company boasts a network of 28 state-of-the-art manufacturing facilities, including two strategic joint ventures with Techno and Trafigura. These facilities are strategically located across the states of Gujarat, Maharashtra, Uttarakhand, and the union territory of Daman and Diu.
           </p>
         </div>
 

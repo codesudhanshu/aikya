@@ -1,8 +1,4 @@
-import React from 'react';
-import Image from 'next/image';
-import Link from 'next/link';
-// Import all necessary icons from lucide-react, including 'X' for Twitter
-import { Facebook, Linkedin, Youtube, Instagram, X } from 'lucide-react'; 
+import React from 'react'; 
 // Assuming '@/assets/images/aikyalogo.jpg' is the correct path for the uploaded image
 
 export default function FooterHome() {
