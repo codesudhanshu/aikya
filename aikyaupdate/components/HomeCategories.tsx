@@ -28,13 +28,6 @@ const HomeCategories = ({ categories }: { categories: Category[] }) => {
                 </Link>
               </div>
             )}
-            <div className="space-y-1">
-              <h3 className="text-base font-semibold group-hover:bg-gradient-to-r group-hover:from-[#7B3B87] group-hover:via-[#4A5FA5] group-hover:to-[#6B4B9E] group-hover:bg-clip-text group-hover:text-transparent hoverEffect">{category?.title}</h3>
-              <p className="text-sm">
-                <span className="font-bold bg-gradient-to-r from-[#7B3B87] via-[#4A5FA5] to-[#6B4B9E] bg-clip-text text-transparent">{`(${category?.productCount})`}</span>{" "}
-                items Available
-              </p>
-            </div>
           </div>
         ))}
       </div>
