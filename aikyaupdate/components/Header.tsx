@@ -3,8 +3,8 @@ import Container from "./Container";
 import Logo from "./Logo";
 import HeaderMenu from "./HeaderMenu";
 import MobileMenu from "./MobileMenu";
-import { auth, currentUser } from "@clerk/nextjs/server";
-import { getMyOrders } from "@/sanity/queries";
+// import { auth, currentUser } from "@clerk/nextjs/server";
+// import { getMyOrders } from "@/sanity/queries";
 
 const Header = async () => {
   // const user = await currentUser();
